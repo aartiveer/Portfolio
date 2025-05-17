@@ -1,0 +1,10 @@
+.about-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-image img {
+  width: 150px;
+  border-radius: 200px;
+  margin-top: 1rem;
+}
