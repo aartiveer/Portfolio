@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Loader from "./components/Loader";
-import HeroSection from "./components/HeroSection";
+import Home from "./components/Home";
 import './App.css'; // Optional if using CSS
 import About from "./components/About";
 import NavbarSection from "./components/NavbarSection";
 import Skills from "./components/Skills";
+import Education from "./components/Education";
+import Contact from "./components/Contact";
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -25,12 +28,14 @@ function App() {
         <>
           <NavbarSection />
           <section id="home">
-            <HeroSection />
+            <Home />
 
           </section>
 
           <About />
           <Skills />
+          <Education />
+          <Contact />
           
         </>
       )}
