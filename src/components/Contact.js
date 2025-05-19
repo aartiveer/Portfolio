@@ -11,7 +11,12 @@ const Contact = () => {
                 <div className="contact-info">
                     <p><FaEnvelope className="icon"/> aartiveer1212@gmail.com</p>
                     <p><FaPhoneAlt className="icon"/> +917385753636</p>
-                    <p><FaLinkedin /></p>
+                    <p><FaLinkedin className="icon"/> https://www.linkedin.com/in/aarti-veer/ </p>
+                     {
+                        constructor(parameters) {
+                            
+                        }
+                    }</p>
                 <div className="social-icons">
                                 <a href="mailto:aartiveer1212@gmail.com"><FaEnvelope /></a>
                                 <a href="https://www.linkedin.com/in/aarti-veer?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPJSD12UqQ%2BOkSTh5N2lTUQ%3D%3D"><FaLinkedin /></a>
